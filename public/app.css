@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+}
+
+header {
+  margin: 20px auto;
+  line-height: 2;
+}
+
+header h1{
+  font-size : 3em;
+  font-weight: 100;
+}
+
+header h3{
+  font-weight: 100;
+}
+
+section.form{
+  padding: 10px;
+}
+
+section.form input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size : 24px;
+  padding: 10px;
+  width: 70%;
+}
+
+ul.list{
+  margin:10px auto;
+  text-align: left;
+  width: 65%;
+}
+
+ul.list li{
+  position:relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul.list li:hover{
+  background-color: #EEEEEE;
+}
+
+ul.list li:hover a{
+  opacity: 1;
+}
+
+ul.list .completed{
+  text-decoration-line: line-through;
+  color: gray;
+}
+
+li a.delete{
+  position: absolute;
+  right: 10px;
+  font-weight: 300;
+  color: maroon;
+  opacity: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.btn{
+  padding: 10px;
+}
